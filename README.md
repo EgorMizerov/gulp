@@ -26,6 +26,7 @@ git clone https://github.com/EgorMizerov/gulp.git
 
 ```
 cd gulp
+npm i -g gulp-cli
 npm install
 ```
 ### Запуск
