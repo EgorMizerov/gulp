@@ -14,11 +14,30 @@
 ## Установка
 <hr>
 
-1. Скачать git-репозиторий
+1. Скачать Git и Node.js<br>
+https://git-scm.com/downloads<br>
+https://nodejs.org/en/
+
+2. Установить репозиторий
 ```
-    git clone https://github.com/EgorMizerov/gulp.git
+$    git clone https://github.com/EgorMizerov/gulp.git
 ```
-2. Установить необходимых пакеты
+3. Установка необходимых пакетов
 ```
-    npm install
+$    npm install
+```
+### Запуск
+```
+$   gulp
+```
+
+## Комманды
+<hr>
+
+```
+$   gulp styles - Сборка sass файлов в app.min.css
+$   gulp scripts - Сборка js файлов в app.min.js
+$   gulp images - Сжатие изображений из src в dest
+$   gulp build - Сборка проекта из app в dist
+
 ```
