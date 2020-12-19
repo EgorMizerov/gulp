@@ -20,27 +20,27 @@ https://nodejs.org/en/
 
 2. Установить репозиторий
 ```
-$    git clone https://github.com/EgorMizerov/gulp.git
+git clone https://github.com/EgorMizerov/gulp.git
 ```
 3. Установка необходимых пакетов
 
 ```
-$   cd gulp
-$   npm install
+cd gulp
+npm install
 ```
 ### Запуск
 ```
-$   gulp
+gulp
 ```
 
 ## Комманды
 <hr>
 
 ```
-$   gulp styles - Сборка sass файлов в app.min.css
-$   gulp scripts - Сборка js файлов в app.min.js
-$   gulp images - Сжатие изображений из src в dest
-$   gulp build - Сборка проекта из app в dist
+gulp styles - Сборка sass файлов в app.min.css
+gulp scripts - Сборка js файлов в app.min.js
+gulp images - Сжатие изображений из src в dest
+gulp build - Сборка проекта из app в dist
 
 ```
 
