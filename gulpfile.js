@@ -22,7 +22,7 @@ function browsersync() {
 // Сборка JS файлов
 function scripts() {
     return src([    // Компоненты
-        'node_modules/vue/dist/vue.min.js',
+//         'node_modules/vue/dist/vue.min.js', // Vue.js
         'app/js/**/*.js'
     ])
     .pipe(concat('app.min.js')) // Конкатонация
