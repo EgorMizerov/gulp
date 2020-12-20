@@ -9,7 +9,7 @@
 ├──── <a href="https://github.com/EgorMizerov/gulp/app/images/src">src</a>&nbsp&nbsp&nbsp&nbsp | Исходники<br>
 
 ├── <a href="https://github.com/EgorMizerov/gulp/app/js">js</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Папка для JS<br>
-├── <a href="https://github.com/EgorMizerov/gulp/app/sass">sass</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Папка для Sass<br>
+├── <a href="https://github.com/EgorMizerov/gulp/app/scss">scss</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Папка для scss<br>
 
 ## Установка
 <hr>
@@ -38,7 +38,7 @@ gulp
 <hr>
 
 ```
-gulp styles - Сборка sass файлов в app.min.css
+gulp styles - Сборка scss файлов в app.min.css
 gulp scripts - Сборка js файлов в app.min.js
 gulp images - Сжатие изображений из src в dest
 gulp build - Сборка проекта из app в dist
@@ -47,11 +47,11 @@ gulp build - Сборка проекта из app в dist
 
 ## Интсрукция
 <hr>
-Всё sass файлы создавать в директории app/sass<br>
+Всё scss файлы создавать в директории app/scss<br>
 Все js файлы создовать в директории app/js<br>
 Все картинки создовать в директории app/images/src<br><br>
 
-Комманда "gulp" запукает сборку всех js файлов в app.min.js. Псоле интерпритирует sass файлы css и собирает их в файле app.min.css. Далее запускает локальный сервер для проекта и начинает слушать обновления файлов.
+Комманда "gulp" запукает сборку всех js файлов в app.min.js. Псоле интерпритирует scss файлы css и собирает их в файле app.min.css. Далее запускает локальный сервер для проекта и начинает слушать обновления файлов.
 
 После того, как вы измените какой-то из js, sass или html файлов, они автомотически соберутся в одноимённые сборки и обновят ваш локальный сервер.
 

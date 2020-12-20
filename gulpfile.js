@@ -34,7 +34,7 @@ function scripts() {
 
 // Сборка Sass
 function styles() {
-    return src('app/sass/**/*.sass')                                                    // Исходники
+    return src('app/scss/**/*.scss')                                                    // Исходники
     .pipe(sass())                                                                       // Интерпритирование в CSS
     .pipe(concat('app.min.css'))                                                        // Конкатонация
     .pipe(autoprefixer({ overrideBrowserslist: [' last 10 versions'], grid: true }))    // Аутопрефиксы
@@ -69,7 +69,7 @@ function cleandist() {
 // Обновление
 function startwatch() {
     watch(['app/**/*.js', '!app/**/*.min.js'], scripts);
-    watch(['app/**/*.sass', '!app/**/*.min.css'], styles);
+    watch(['app/**/*.scss', '!app/**/*.min.css'], styles);
     watch('app/**/*.html').on('change', browserSync.reload);
     watch('app/images/src/**/*', images);
 }
