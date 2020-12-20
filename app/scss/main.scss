@@ -43,10 +43,26 @@ a {
 .main__img {
     height: 300px;
     width: 225px;
+
+    animation-name: gulp-animate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .main__text {
     text-align: center;
     width: 500px;
     color: #525252;
+}
+
+@keyframes gulp-animate{
+    0%{
+        height: 300px;
+        width: 225px; 
+    }
+    100%{
+        height: 360px;
+        width: 275px;
+    }
 }
