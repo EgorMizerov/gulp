@@ -14,7 +14,7 @@ const del = require('del');                                     // Del
 function browsersync() {
     browserSync.init({
         server: { baseDir: 'app/' },
-        notify: true, // Выключает уведомления
+        notify: false, // Выключает уведомления
         online: true, // Включает локальную сеть
     })
 }
